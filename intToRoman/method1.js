@@ -4,7 +4,7 @@ var intToRoman = function(num) {
     
     let numerals = '';
 
-    let posn = 1;console.log(arr);
+    let posn = 1;
     while (arr.length){
         let current = arr.pop();
         let romStr = getStr(current, posn);
