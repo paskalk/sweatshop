@@ -1,0 +1,23 @@
+{
+  "name": "sweatshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paskalk/sweatshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paskalk/sweatshop/issues"
+  },
+  "homepage": "https://github.com/paskalk/sweatshop#readme",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}

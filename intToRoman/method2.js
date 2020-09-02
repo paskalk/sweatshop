@@ -16,10 +16,11 @@ var intToRoman = function(num) {
     return numerals;
 };
 
-console.log('I', intToRoman(1));
-console.log('X', intToRoman(10));
-console.log('C', intToRoman(100));
-console.log('M', intToRoman(1000));
-console.log('CD', intToRoman(400));
-console.log('VIII', intToRoman(8));
-console.log('MDCCCXXIV', intToRoman(1824));
+module.exports = intToRoman;
+// console.log('I', intToRoman(1));
+// console.log('X', intToRoman(10));
+// console.log('C', intToRoman(100));
+// console.log('M', intToRoman(1000));
+// console.log('CD', intToRoman(400));
+// console.log('VIII', intToRoman(8));
+// console.log('MDCCCXXIV', intToRoman(1824));
