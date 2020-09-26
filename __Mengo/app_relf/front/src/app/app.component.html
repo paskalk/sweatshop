@@ -1,0 +1,35 @@
+<div class="container-fluid ">
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-5">Simple Video Player</h1>
+            <p class="lead">This player accepts a YouTube URL and plays it. If you enter an invalid URL, a default video to show you how to paste valid links is played instead.</p>
+            <hr class="my-4">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 col-md-4">
+            <app-history
+                [urlInput] = "urlInput"
+                (urlToPlay)="onUrlReady($event)"
+            ></app-history>
+        </div>
+        <div class="col-12 col-md-4">
+            <app-searchbar
+                [urlInput] = "urlInput"
+                (urlToPlay)="onUrlReady($event)"
+            ></app-searchbar>
+            
+            <app-video-view
+                [urlInput] = "urlInput"
+            ></app-video-view>
+        </div>
+        <div class="col-12 col-md-4">
+            <app-bookmarks 
+                [urlInput] = "urlInput"
+                (urlToPlay)="onUrlReady($event)"
+            >
+            </app-bookmarks></div>
+    </div>
+</div>

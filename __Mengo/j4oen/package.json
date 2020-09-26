@@ -1,0 +1,15 @@
+{
+  "name": "j4oen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "round-robin.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.4.2"
+  }
+}

@@ -1,0 +1,15 @@
+
+<input #txtUrlInput
+    type="text"
+    placeholder="Paste a YouTube URL and hit enter"
+    class="form-control"
+    (input) = "onAddressChange($event)"
+    (keyup.enter)="onEnterOrBlur(txtUrlInput.value)"      
+    (blur)="onEnterOrBlur(txtUrlInput.value)"
+    [(ngModel)]="urlInput"
+/>
+
+
+
+
+
